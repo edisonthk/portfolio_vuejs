@@ -1,29 +1,14 @@
-# my_portfolio
+# Vue-2.js - ポートフォリオ
+vue2.jsを利用して作成したポートフォリオになります。
+[http://portfolio.edisonthk.com](http://portfolio.edisonthk.com)
 
-## Project setup
-```
-yarn install
-```
+### プラグイン
+* vue
+* vue-router
+* vue-i18n
+* boostrap
+* font-awesome
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+### Boilerplate
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Vue cli](https://cli.vuejs.org/config/) を使いました。
