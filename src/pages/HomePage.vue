@@ -184,10 +184,6 @@ export default {
   display: block;
   color: $black;
   text-decoration: none;
-
-  &:hover {
-    padding-bottom: 18px;
-  }
 }
 
   @media (max-width: $sp-width) {
@@ -260,6 +256,11 @@ p {
 
 .group {
   margin-bottom: 96px;
+
+  a:hover {
+    padding-bottom: 3px;
+    border-bottom: 2px solid $black;
+  }
 }
 
 .pic {
@@ -274,11 +275,6 @@ hr {
 }
 a {
   text-decoration: none;
-
-  &:hover {
-    padding-bottom: 3px;
-    border-bottom: 2px solid $black;
-  }
 }
 @media (max-width: $sp-width) {
   .headline1 {
