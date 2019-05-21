@@ -2,7 +2,7 @@
 <div>
   <div class="container">
     <div class="s1">
-      <h1 class="s1-text1">リーウィーヘン</h1>
+      <h1 class="s1-text1">ヘンリーウィー</h1>
       <h2 class="s1-text2">web engineer</h2>
       <p>マレーシア出身のシステムエンジニアです。大学進学をきっかけに来日し10年が経ちました。 今は東京でお仕事をしております。</p>
     </div>
@@ -52,19 +52,19 @@ AWS Elastic Beanstalk / gulp / git / MySQL / MailChimp / WordPress</p>
   <hr>
   <div class="s5">
     <div class="s5-sns-group">
-      <a class="s5-sns" href="#">
+      <a class="s5-sns" target="_blank" href="https://stackoverflow.com/users/1799322/edisonthk">
         <img src="@/assets/sns_stackoverflow.svg">
       </a>
-      <a class="s5-sns" href="#">
+      <a class="s5-sns" target="_blank" href="https://github.com/edisonthk">
         <img src="@/assets/sns_github.svg">
       </a>
-      <a class="s5-sns" href="#">
+      <a class="s5-sns" target="_blank" href="https://www.facebook.com/heng.likwee">
         <img src="@/assets/sns_fb.svg">
       </a>
-      <a class="s5-sns" href="#">
+      <a class="s5-sns" target="_blank" href="https://qiita.com/edisonthk">
         <img src="@/assets/sns_qiita.svg">
       </a>
-      <a class="s5-sns" href="#">
+      <a class="s5-sns" target="_blank" href="https://www.codeproject.com/Members/EdisonHeng">
         <img src="@/assets/sns_codeproject.svg">
       </a>
     </div>
