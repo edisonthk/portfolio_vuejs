@@ -68,7 +68,7 @@ AWS Elastic Beanstalk / gulp / git / MySQL / MailChimp / WordPress</p>
         <img src="@/assets/sns_codeproject.svg">
       </a>
     </div>
-    <p class="s5-copyright">©LIKWEE 2015-2019 / <a target="_blank" href="https://github.com/edisonthk/portfolio_vuejs">Source and Licenses</a></p>
+    <p class="s5-copyright">©LIKWEE 2015-2019 / <a class="link" target="_blank" href="https://github.com/edisonthk/portfolio_vuejs">Source and Licenses</a></p>
   </div>
 </div>
 </template>
@@ -256,11 +256,11 @@ p {
 
 .group {
   margin-bottom: 96px;
+}
 
-  a:hover {
-    padding-bottom: 3px;
-    border-bottom: 2px solid $black;
-  }
+.group a:hover, .link:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid $black;
 }
 
 .pic {
