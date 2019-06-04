@@ -22,7 +22,7 @@
         <p>理系学生に特化した就活サービスや、海外レストラン予約、セレクトショップECサイトなど、フロントエンドからバックエンド、インフラ運用など幅広く担当し、多くのサービスを手がけてきました。
     サービスローンチ前後などの不確実性が高いフェーズでも、技術領域の広さで柔軟にお手伝いすることが可能です。</p>
         <p>主な実績：<br>
-    <a href="https://labbase.jp" target="_blank">LabBase</a> / たびらく / <a href="#">IROYA</a> / FLATBUSH</p>
+    <a href="https://labbase.jp" target="_blank">LabBase</a> / たびらく / <router-link to="/iroza">IROZA</router-link> / FLATBUSH</p>
       </div>
       <div class="group">
         <h2 class="headline2">webマークアップ</h2>
@@ -41,9 +41,8 @@
     </div>
     <div class="s4">
       <h3 class="headline1">SKILLS</h3>
-      <p class="s4-text1">HTML / CSS / JQuery /
-Rails / webpacker / asset pipeline / php / Laravel /
-AWS Elastic Beanstalk / gulp / git / MySQL / MailChimp / WordPress</p>
+      <p class="s4-text1">HTML / CSS / JQuery / Asset Pipeline / PHP5 / PHP7 / Laravel /
+AWS Elastic Beanstalk / Gulp / Git / MySQL / MailChimp / WordPress</p>
 <p class="s4-text2">環境に応じて柔軟に対応いたします。</p>
 <img class="s4-profile" src="@/assets/profile.png">
 <a href="mailto:edisonthk@gmail.com" class="s4-href">お問い合わせ</a>
@@ -103,6 +102,10 @@ export default {
   .s4-href {
     border-color: #919191;
     color: white;
+  }
+
+  .group a:hover, .link:hover {
+    border-color: white;
   }
 }
 

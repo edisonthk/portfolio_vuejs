@@ -12,6 +12,10 @@ export default [
     component: () => import('@/pages/HomePage.vue'),
   },
   {
+    path: '/iroza',
+    component: () => import('@/pages/IrozaPage.vue'),
+  },
+  {
     path: '/*',
     redirect: '/',
   },
