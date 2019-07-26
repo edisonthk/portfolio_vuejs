@@ -41,7 +41,7 @@
     </div>
     <div class="s4">
       <h3 class="headline1">SKILLS</h3>
-      <p class="s4-text1">HTML / CSS / JQuery / Asset Pipeline / PHP5 / PHP7 / Laravel /
+      <p class="s4-text1">HTML / CSS / JQuery / Asset Pipeline / Vue2 / ReactJS / Webpack / PHP5 / PHP7 / Laravel /
 AWS Elastic Beanstalk / Gulp / Git / MySQL / MailChimp / WordPress</p>
 <p class="s4-text2">環境に応じて柔軟に対応いたします。</p>
 <img class="s4-profile" src="@/assets/profile.png">
