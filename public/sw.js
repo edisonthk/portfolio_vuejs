@@ -2,7 +2,10 @@
 const CACHE_NAME = 'cache-v3';
 
 // workbox.webpack の InjectManifest が自動生成
-const urlsToCache = (self.__precacheManifest || []).map(item => item.url);
+const urlsToCache = (self.__precacheManifest || [])
+  .map(item => item.url)
+  .concat([ '/' ])
+  ;
 
 // キャッシュするべきのURLリストを初期化
 const initializeCacheList = () => {
